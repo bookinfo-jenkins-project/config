@@ -128,7 +128,7 @@ spec:
       serviceAccountName: bookinfo-reviews
       containers:
       - name: reviews
-        image: docker.io/winterash2/examples-bookinfo-reviews-v1:1.17.0
+        image: docker.io/winterash2/examples-bookinfo-reviews-v3:1.17.0
         imagePullPolicy: IfNotPresent
         env:
         - name: LOG_DIR
