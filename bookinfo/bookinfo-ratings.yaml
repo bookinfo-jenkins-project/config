@@ -44,7 +44,7 @@ spec:
       serviceAccountName: bookinfo-ratings
       containers:
       - name: ratings
-        image: docker.io/winterash2/examples-bookinfo-ratings-v1:1.17.0
+        image: docker.io/winterash2/examples-bookinfo-ratings-v1:2210181805_2
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9080
