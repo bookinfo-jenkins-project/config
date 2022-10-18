@@ -46,7 +46,7 @@ spec:
       serviceAccountName: bookinfo-productpage
       containers:
       - name: productpage
-        image: docker.io/winterash2/examples-bookinfo-productpage-v1:2210181451_13
+        image: docker.io/winterash2/examples-bookinfo-productpage-v1:2210181835_17
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9080
